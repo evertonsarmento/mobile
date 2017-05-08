@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sala01.myapplication.TesteAPP">
+
+    <TextView
+        android:id="@+id/txtBla"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/imgIcone"
+        android:layout_alignLeft="@+id/txtTeste"
+        android:layout_alignStart="@+id/txtTeste"
+        android:text="BLA"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/txtTeste"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imgIcone"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/imgIcone"
+        android:layout_toRightOf="@+id/imgIcone"
+        android:text="Teste"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <ImageView
+        android:id="@+id/imgIcone"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/btClique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtBla"
+        android:layout_alignLeft="@+id/imgIcone"
+        android:layout_alignRight="@+id/txtBla"
+        android:layout_alignStart="@+id/imgIcone"
+        android:layout_below="@+id/imgIcone"
+        android:layout_marginTop="39dp"
+        android:text="CLIQUE AQUI" />
+
+    <EditText
+        android:id="@+id/txtDinamico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btClique"
+        android:layout_alignLeft="@+id/btClique"
+        android:layout_alignRight="@+id/btClique"
+        android:layout_alignStart="@+id/btClique"
+        android:layout_below="@+id/btClique"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TEXTO"
+        android:textAlignment="center" />
+
+</RelativeLayout>

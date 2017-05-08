@@ -1,5 +1,30 @@
-2.3.3 API10 - todos os tipos existentes
+Nicolas Schirmer
+Email do instrutor: nschirmer.dev@gmail.com
 
+2.3.3 API10 - todos os tipos existentes
 95% do mercado a partir da API16
 
-teste de git
+------------------------
+
+plugin 
+Android drawable importer
+
+Tamanhos de tela
+mdp - pequeno
+xmdp - médio
+xxmdp - grande
+
+-----------------------
+
+gravity : para onde vai sendo colocado os componentes
+
+Layout
+ 
+View Group
+-- linear layout
+---- horizontal 
+---- vertical
+--Relative layout
+--Frame 
+-- Table Layout
+---- Table Row (tem que ser usado junto com o table layout)
