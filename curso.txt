@@ -28,3 +28,16 @@ View Group
 --Frame 
 -- Table Layout
 ---- Table Row (tem que ser usado junto com o table layout)
+
+----------------------------------
+
+no git
+
+https://github.com/nicolasSchirmer/Android-TargetTrust.git
+
+----------------------------------
+
+Genymotion
+
+
+

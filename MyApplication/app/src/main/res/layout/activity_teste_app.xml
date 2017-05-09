@@ -76,4 +76,26 @@
         android:text="TEXTO"
         android:textAlignment="center" />
 
+    <Button
+        android:id="@+id/btIrPara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtDinamico"
+        android:layout_alignLeft="@+id/txtDinamico"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txtDinamico"
+        android:layout_alignStart="@+id/txtDinamico"
+        android:layout_marginBottom="50dp"
+        android:text="Ir para outra tela" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btIrPara"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
 </RelativeLayout>
