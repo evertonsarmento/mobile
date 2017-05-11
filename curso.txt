@@ -39,5 +39,26 @@ https://github.com/nicolasSchirmer/Android-TargetTrust.git
 
 Genymotion
 
+---------------------------------
+
+octotree
+
+---------------------------------
+
+gson
+
+---------------------------------
+
+material dialog
+awesome ui
+
+
+----------------------------------
+
+developer.android
+livro - Android Programming: The Big Nerd Ranch Guide (3rd Edition)
+
+http://www.eadtt.com.br
+
 
 
