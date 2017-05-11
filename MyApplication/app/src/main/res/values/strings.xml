@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">APP IO</string>
+
+    <string name="title">clique</string>
+
+    <string name="desc">esse é um dialog</string>
+
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string-array name="mArray">
+        <item>item 1</item>
+        <item>item 2</item>
+        <item>item 3</item>
+    </string-array>
+
 </resources>
