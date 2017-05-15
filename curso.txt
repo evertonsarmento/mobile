@@ -70,6 +70,43 @@ inflate
 https://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView
 
 
+-----------------------------------------
+
+OK Http
+Async Task
+
+- Thread Async
+- Dialog Loading
+- Interface
+- Http Request
+
+
+-----------------------------------------
+
+firebase
+base de dados de login e criptografia
+
+https://developer.android.com/training/basics/network-ops/connecting.html
+
+----------------------------------------
+
+troca de fragments : replace
+
+
+----------------------------------------
+layouts
+shape:
+canvas + paint
+
+---------------------------------------
+
+log 
+log.d("tag", "bla");
+
+
+
+
+
 
 
 
