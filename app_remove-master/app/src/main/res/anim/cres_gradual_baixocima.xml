@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- animaçaõ para crescer uma view de modo gradual de baixo para cima-->
+
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:shareInterpolator="false"
+    android:fillAfter="true">
+
+    <alpha
+        android:duration="120"
+        android:fromAlpha="0"
+        android:toAlpha="1" />
+
+    <scale
+        android:fillBefore="false"
+        android:duration="150"
+        android:pivotX="100%"
+        android:pivotY="100%"
+        android:fromXScale="1"
+        android:toXScale="1"
+        android:fromYScale="0"
+        android:toYScale="1" />
+</set>

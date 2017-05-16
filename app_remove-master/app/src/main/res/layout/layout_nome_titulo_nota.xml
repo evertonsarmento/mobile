@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- nome e titulo -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <nicolas.ex1.CustomFonts.OpenSansRegFont
+            android:id="@+id/nome_comentario"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <nicolas.ex1.CustomFonts.OpenSansRegFont
+            android:id="@+id/titulo_comentario"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- estrelas -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/estrela1"
+            android:src="@mipmap/ic_star"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="@dimen/estrela"
+            android:layout_height="@dimen/estrela" />
+
+        <ImageView
+            android:id="@+id/estrela2"
+            android:src="@mipmap/ic_star"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="@dimen/estrela"
+            android:layout_height="@dimen/estrela" />
+
+        <ImageView
+            android:id="@+id/estrela3"
+            android:src="@mipmap/ic_star"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="@dimen/estrela"
+            android:layout_height="@dimen/estrela" />
+
+        <ImageView
+            android:id="@+id/estrela4"
+            android:src="@mipmap/ic_star"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="@dimen/estrela"
+            android:layout_height="@dimen/estrela" />
+
+        <ImageView
+            android:id="@+id/estrela5"
+            android:src="@mipmap/ic_star"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="@dimen/estrela"
+            android:layout_height="@dimen/estrela" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6">
+
+        <!-- 0dp no height nesse caso por ser vertical é melhor pra performance
+        <... caso fosse horizonta seria o widht -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="5">
+
+            <ImageView
+                android:id="@+id/imagemLocal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"/>
+
+            <!-- enquanto nao carrega a imagm mostra o progresso -->
+            <!-- custom loaging:
+            <... compile 'com.wang.avi:library:1.0.5'
+            <... compile 'com.nineoldandroids:library:2.4.0'
+            <... doc: https://github.com/81813780/AVLoadingIndicatorView-->
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/avloadingIndicatorView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:visibility="gone"
+                app:indicator="LineScale"
+                app:indicator_color="@color/colorPrimary"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:padding="12dp">
+
+            <nicolas.ex1.CustomFonts.OpenSansSBoldFont
+                android:id="@+id/tituloLocal"
+                android:textColor="@color/colorPrimary"
+                android:textSize="28sp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <!-- gambi? talvez... :P -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:id="@+id/imagem_flutuante"
+            android:background="@drawable/layout_redondo"
+            android:visibility="invisible"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+    </FrameLayout>
+
+</FrameLayout>

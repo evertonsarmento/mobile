@@ -1,0 +1,195 @@
+{
+   "results":[
+      {
+         "gender":"female",
+         "name":{
+            "title":"madame",
+            "first":"maïwenn",
+            "last":"lefebvre"
+         },
+         "location":{
+            "street":"1259 rue duguesclin",
+            "city":"gollion",
+            "state":"obwalden",
+            "postcode":4538
+         },
+         "email":"maïwenn.lefebvre@example.com",
+         "login":{
+            "username":"tinyrabbit373",
+            "password":"roadkill",
+            "salt":"gYL9XkLf",
+            "md5":"f55f960c4a28afdf707c02714c2d49b2",
+            "sha1":"4f8c737e0cb1b7776df99e700a48e291e18a47fc",
+            "sha256":"b71a57e102ceff9d2d338208a0f29b4f22a5478e8c1e55de7f78a47ecd668b6a"
+         },
+         "dob":"1985-11-01 17:54:13",
+         "registered":"2005-12-26 09:52:05",
+         "phone":"(873)-372-8156",
+         "cell":"(004)-493-8212",
+         "id":{
+            "name":"AVS",
+            "value":"756.XDWX.ZSQA.72"
+         },
+         "picture":{
+            "large":"https://randomuser.me/api/portraits/women/3.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/women/3.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/women/3.jpg"
+         },
+         "nat":"CH"
+      },
+      {
+         "gender":"male",
+         "name":{
+            "title":"mr",
+            "first":"lohan",
+            "last":"martinez"
+         },
+         "location":{
+            "street":"4634 rue des chartreux",
+            "city":"aix-en-provence",
+            "state":"mayenne",
+            "postcode":57012
+         },
+         "email":"lohan.martinez@example.com",
+         "login":{
+            "username":"bigkoala328",
+            "password":"zouzou",
+            "salt":"GocM6HO6",
+            "md5":"2fdc82b3ddadbea445d2d646df03f594",
+            "sha1":"71096b32cfedd398a4dc36d6d2a0169f03536926",
+            "sha256":"5aaeb177523c4af252afbb3fb3440647388afa9c0beac487b1c416b042f6a5d5"
+         },
+         "dob":"1979-06-06 15:59:22",
+         "registered":"2004-07-30 00:29:29",
+         "phone":"01-12-53-54-19",
+         "cell":"06-67-57-64-18",
+         "id":{
+            "name":"INSEE",
+            "value":"179504930509 36"
+         },
+         "picture":{
+            "large":"https://randomuser.me/api/portraits/men/78.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/men/78.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/men/78.jpg"
+         },
+         "nat":"FR"
+      },
+      {
+         "gender":"male",
+         "name":{
+            "title":"mr",
+            "first":"????????",
+            "last":"????"
+         },
+         "location":{
+            "street":"5183 ???? ?????",
+            "city":"??",
+            "state":"??????",
+            "postcode":63319
+         },
+         "email":"????????.????@example.com",
+         "login":{
+            "username":"purplefish876",
+            "password":"athlon",
+            "salt":"Oh49S0oc",
+            "md5":"bbd1ada14d34e0194018739818ae907b",
+            "sha1":"a199762e03250bbb26bb9a0cae4757cfca63df1f",
+            "sha256":"6090ae667b52793711e5c46aa5a2390530053fdf18c95fd39a2d641876a85f9f"
+         },
+         "dob":"1952-07-18 23:47:57",
+         "registered":"2005-10-04 15:15:16",
+         "phone":"034-66591177",
+         "cell":"0968-338-7181",
+         "id":{
+            "name":"",
+            "value":null
+         },
+         "picture":{
+            "large":"https://randomuser.me/api/portraits/men/0.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/men/0.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/men/0.jpg"
+         },
+         "nat":"IR"
+      },
+      {
+         "gender":"male",
+         "name":{
+            "title":"mr",
+            "first":"peetu",
+            "last":"jarvinen"
+         },
+         "location":{
+            "street":"4679 reijolankatu",
+            "city":"salo",
+            "state":"lapland",
+            "postcode":38847
+         },
+         "email":"peetu.jarvinen@example.com",
+         "login":{
+            "username":"organictiger599",
+            "password":"tasha",
+            "salt":"gXhxGbML",
+            "md5":"b3d842443cf5d06689632cc40ce601fc",
+            "sha1":"057460d6909ba421d6c4e005079129c069290420",
+            "sha256":"f634c73172034ba458cae798d58e7ea1c7cad8ec20dd41c822320d8a0339e932"
+         },
+         "dob":"1971-03-31 08:56:54",
+         "registered":"2003-08-05 13:22:34",
+         "phone":"03-164-857",
+         "cell":"044-753-60-51",
+         "id":{
+            "name":"HETU",
+            "value":"571-567M"
+         },
+         "picture":{
+            "large":"https://randomuser.me/api/portraits/men/45.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/men/45.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/men/45.jpg"
+         },
+         "nat":"FI"
+      },
+      {
+         "gender":"female",
+         "name":{
+            "title":"ms",
+            "first":"cassandra",
+            "last":"morris"
+         },
+         "location":{
+            "street":"2137 karen dr",
+            "city":"launceston",
+            "state":"australian capital territory",
+            "postcode":5052
+         },
+         "email":"cassandra.morris@example.com",
+         "login":{
+            "username":"beautifulostrich354",
+            "password":"jefferso",
+            "salt":"91TTWB8D",
+            "md5":"242bb8964c68c2903570841d6fa38ad0",
+            "sha1":"068424a0c1963c6a686c029279e4a94299998830",
+            "sha256":"477fee55d491870802356c8428e17bb468a624e425b2ea4cfbc52e95a2c60672"
+         },
+         "dob":"1988-04-28 11:07:45",
+         "registered":"2011-12-22 12:06:05",
+         "phone":"07-4513-0045",
+         "cell":"0434-326-281",
+         "id":{
+            "name":"TFN",
+            "value":"509517993"
+         },
+         "picture":{
+            "large":"https://randomuser.me/api/portraits/women/54.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/women/54.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/women/54.jpg"
+         },
+         "nat":"AU"
+      }
+   ],
+   "info":{
+      "seed":"596cadf4f209a516",
+      "results":5,
+      "page":1,
+      "version":"1.1"
+   }
+}

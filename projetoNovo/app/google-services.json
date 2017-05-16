@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "966452004063",
+    "firebase_url": "https://projeto-novo-b0f8c.firebaseio.com",
+    "project_id": "projeto-novo-b0f8c",
+    "storage_bucket": "projeto-novo-b0f8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966452004063:android:72af2f357437a55e",
+        "android_client_info": {
+          "package_name": "com.example.sala01.projetonovo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966452004063-r738hk127ctcfhauihr9k169js1p38p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQaa3DnlYEctlacoCcaKN4gSqkm-RrvC0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

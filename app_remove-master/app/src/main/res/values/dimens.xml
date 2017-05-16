@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- 600dp quando a tela fica em landscape e 820dp para tablets -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_size_actionbar">20sp</dimen>
+    <dimen name="round_corner">10dp</dimen>
+    <dimen name="margin_principal">4dp</dimen>
+    <dimen name="tam_primeirapt_principal">260dp</dimen>
+    <dimen name="logo_segundapt">50dp</dimen>
+    <dimen name="mapa">170dp</dimen>
+    <dimen name="estrela">15dp</dimen>
+</resources>

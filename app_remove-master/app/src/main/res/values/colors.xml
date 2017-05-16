@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cb9419</color>
+    <color name="colorPrimaryDark">#ac7e15</color>
+    <color name="colorPrimaryShadow">#c382550f</color>
+    <color name="colorAccent">#96fcaf00</color>
+
+    <color name="whitePure">#ffffff</color>
+    <color name="white">#e2e5ed</color>
+
+    <!-- gambi do dialog process -->
+    <color name="spots_dialog_color">@color/colorPrimary</color>
+</resources>

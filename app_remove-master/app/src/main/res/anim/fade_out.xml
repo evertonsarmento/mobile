@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- animação de fade in -->
+
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false"
+    android:fillAfter="true" >
+
+    <scale
+        android:duration="100"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="1"
+        android:toXScale="0"
+        android:fromYScale="1"
+        android:toYScale="0"
+        android:fillAfter="false"/>
+
+    <alpha
+        android:duration="150"
+        android:fromAlpha="1"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="0" />
+
+
+</set>

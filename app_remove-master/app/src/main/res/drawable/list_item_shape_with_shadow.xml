@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- sombra para a view -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+        <shape
+            android:shape="rectangle">
+            <corners android:radius="@dimen/round_corner"/>
+            <solid android:color="@color/colorPrimaryShadow" />
+        </shape>
+    </item>
+    <item android:right="0dp" android:left="0dp" android:bottom="4dp">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/colorPrimary"/>
+            <corners android:radius="@dimen/round_corner"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Activity.TelaInicial">
+
+    <!-- usar toolbar é mais facil para customizar -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:contentInsetStart="0dp"
+        style="@style/Toolbar"
+        android:elevation="8dp">
+
+
+        <nicolas.ex1.CustomFonts.CanaroFont
+            android:id="@+id/TitleTelaInicial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/title_telainicial"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_actionbar" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:id="@+id/tentaDenovo"
+            android:onClick="conectaDenovo"
+            android:visibility="gone"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_resync"/>
+
+        <ListView
+            android:id="@+id/listViewInicial"
+            android:layout_gravity="center"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="20sp"
+            android:drawSelectorOnTop="true"
+            android:listSelector="@drawable/list_item_selector"
+            android:smoothScrollbar="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_mapa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    >
+
+    <!-- item class muito importante nesse caso, pois aintes nao conseguia chamar o async -->
+    <fragment
+        android:id="@+id/mapa"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mapa" />
+
+    <!-- sombra na parte de cima da view simulando o elevation -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/sombra"
+        android:layout_gravity="center_horizontal|top"/>
+
+    <FrameLayout
+        android:id="@+id/layout_endereco"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal|bottom"
+            android:padding="4dp">
+
+            <nicolas.ex1.CustomFonts.OpenSansRegFont
+                android:id="@+id/descricao_mapa"
+                android:maxLines="2"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:gravity="end"
+                android:paddingRight="50dp"
+                android:paddingEnd="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagem_flutuante"
+            android:background="@drawable/layout_redondo"
+            android:src="@mipmap/ic_marker"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_gravity="end|bottom" />
+    </FrameLayout>
+
+    <!-- pelicula necessaria pra cuidar da interferencia da scrollview -->
+    <ImageView
+        android:id="@+id/pelicula_mapa"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|bottom" />
+
+</FrameLayout>

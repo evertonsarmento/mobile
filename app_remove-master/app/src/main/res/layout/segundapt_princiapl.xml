@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout_logos"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/whitePure"
+    android:padding="4dp"
+   >
+
+    <LinearLayout
+        android:id="@+id/conjunto_logos"
+        android:layout_marginBottom="@dimen/margin_principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:alpha="0.4"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bt_liga"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/ic_phone"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="@dimen/logo_segundapt"
+                android:layout_height="@dimen/logo_segundapt"/>
+
+            <nicolas.ex1.CustomFonts.OpenSansSBoldFont
+                android:text="Ligar"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bt_servicos"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/ic_diamond"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="@dimen/logo_segundapt"
+                android:layout_height="@dimen/logo_segundapt"/>
+
+            <nicolas.ex1.CustomFonts.OpenSansLightFont
+                android:text="Serviços"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bt_endereco"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/ic_marker"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="@dimen/logo_segundapt"
+                android:layout_height="@dimen/logo_segundapt"/>
+
+            <nicolas.ex1.CustomFonts.OpenSansLightFont
+                android:text="Endereço"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bt_comentarios"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/ic_chat"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="@dimen/logo_segundapt"
+                android:layout_height="@dimen/logo_segundapt"/>
+
+            <nicolas.ex1.CustomFonts.OpenSansLightFont
+                android:text="Comentários"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bt_favoritos"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/ic_star"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="@dimen/logo_segundapt"
+                android:layout_height="@dimen/logo_segundapt"/>
+
+            <nicolas.ex1.CustomFonts.OpenSansLightFont
+                android:text="Favoritos"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_margin="@dimen/margin_principal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.2"
+        android:background="@color/colorPrimaryShadow">
+    </View>
+
+    <nicolas.ex1.CustomFonts.OpenSansRegFont
+        android:layout_marginTop="6dp"
+        android:layout_margin="6dp"
+        android:id="@+id/texto"
+        android:textSize="16sp"
+        android:layout_marginBottom="6dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
