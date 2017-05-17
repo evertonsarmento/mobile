@@ -101,12 +101,26 @@ canvas + paint
 ---------------------------------------
 
 log 
-log.d("tag", "bla");
+Log.d("tag", "bla");
 
 table
 
+-----------------------------------------
+
+- Firebase
+- Fragments
+
+-----------------------------------------
 
 
+https://examples.javacodegeeks.com/android/core/activity/android-start-service-boot-example/
 
+-----------------------------------------
+
+-Service
+-Fragment
+-maps
+
+Alarm manager
 
 
