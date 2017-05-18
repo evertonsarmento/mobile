@@ -124,3 +124,8 @@ https://examples.javacodegeeks.com/android/core/activity/android-start-service-b
 Alarm manager
 
 
+----------------------------------------
+
+android camera 2 example tutorial
+
+
