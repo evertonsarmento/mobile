@@ -52,7 +52,7 @@ public class CustomAdapter extends ArrayAdapter<Item> {
             }
         });
 
-        viewHolder.name.setText(// TODO);
+        //viewHolder.name.setText(// TODO);
 
         return convertView;
     }
